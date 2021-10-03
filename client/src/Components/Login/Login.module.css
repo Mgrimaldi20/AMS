@@ -1,0 +1,52 @@
+.loginpage 
+{
+    font-family: "Raleway", "Roboto", sans-serif;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.loginform 
+{
+    align-items: center;
+    width: 400px
+}
+
+.strike 
+{
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after 
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: rgb(184, 196, 194);
+}
+
+.strike > span:before 
+{
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after 
+{
+    left: 100%;
+    margin-left: 15px;
+}

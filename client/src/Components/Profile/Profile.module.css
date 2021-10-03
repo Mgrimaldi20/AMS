@@ -1,0 +1,9 @@
+.profilepage
+{
+    font-family: "Raleway", "Roboto", sans-serif;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
